@@ -40,7 +40,7 @@ ENV DFILE_VERSION "1.6"
 RUN useradd -m --uid 1402 lovelace
 
 # Documentation
-LABEL maintainer="Kevin Haller <keivn.haller@outofbits.com>"
+LABEL maintainer="Kevin Haller <kevin.haller@outofbits.com>"
 LABEL version="${DFILE_VERSION}-node${NODE_VERSION}"
 LABEL description="Blockchain node for Cardano (implemented in Haskell)."
 
